@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+
+.collection{
+	width: 29%;
+}
+
+.user_form{
+	position: absolute;
+    top: 14%;
+    left: 37%;
+    width: 55%;
+    padding: 10px;
+    background-color: #eceff1;
+    border: 1px solid #e6e6e6;
+}
+
+#active{
+	font-size: 25px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#delete {
+	left: 59.5%;
+    position: absolute;
+    top: 94.2%;
+}
+
+label {
+	color: #ee6e73 !important;
+}
+
+.error_border{
+	border-bottom: 1px solid #e53935 !important;
+}

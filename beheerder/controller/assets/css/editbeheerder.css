@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.beheerders{
+	width: 30%;
+}
+
+#title{
+	font-size: 1.3rem;
+}
+
+.data{
+	position: absolute;
+    left: 37%;
+    top: 12%;
+    background-color: #f3f3f3;
+    width: 60%;
+    padding: 5px;
+    border: 1px solid #e6e3e3;
+}

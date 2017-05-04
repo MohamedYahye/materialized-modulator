@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.wrapper {
+	margin-top: 2%;
+    margin-left: 2%;
+    width: 95%;
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    padding: 5px;
+}
+
+
+.wrapper > h3{
+	margin-left: 20px;
+}
+
+
+.wrapper > h5{
+	margin-left: 20px;
+}
+
+.collection {
+	position: relative;
+    width: 30%;
+    float: left;
+    margin-left: 20px !important;
+}
+
+.wrapper > span{
+	margin-left: 20px;
+}
+
+.new-members{
+	margin-top: 20px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: inherit;
+    border: inherit;
+    padding: inherit;
+}
+
+.new-members > h5{
+	margin-left: 20px;
+}
+
+.new-members > h6{
+	margin-left: 20px;
+}
+
+.change-name{
+	margin-left: 20px;
+    width: 30%;
+    background-color: #fff;
+    padding: 5px;
+    border: inherit;
+
+}
+
+.delete-group{
+	position: absolute;
+    left: 33.5%;
+    top: 33%;
+    width: 30%;
+    padding: 5px;
+    padding: 5px;
+}
+
+.delete-group > button{
+	margin-top: 72px;
+}
+
+..red.darken-4{
+    margin-top: 110px;
+}
+
+.delete_span {
+    font-weight: bolder;
+}

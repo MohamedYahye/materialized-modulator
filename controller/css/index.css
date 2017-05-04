@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.modules {
+	width: 30% !important;
+}
+
+.frame{
+	width: 50%;
+    height: 800px;
+    position: absolute;
+    left: 34.5%;
+    top: 10%;
+}

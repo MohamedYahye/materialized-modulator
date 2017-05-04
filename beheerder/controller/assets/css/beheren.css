@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.beheer_button{
+	width: 30%;
+}
+
+.panel{
+	position: absolute;
+    left: 37%;
+    top: 14%;
+    width: 60%;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 1px solid #e2e0e0;
+}

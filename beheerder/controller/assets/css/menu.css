@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.inner-wrap{
+}
+
+.brand-logo{
+	margin-top: -68px;
+}
+
+.left-menu{
+	position: absolute;
+    left: 90%;
+}
+
+.right{
+	float: none !important;
+	position: absolute;
+	left: 30%;
+}
+
+@media only screen and (max-width: 1735px) 
+{
+    .left-menu{
+        display: none;
+    }
+}

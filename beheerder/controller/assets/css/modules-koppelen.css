@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.modules-koppelen {
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.modules-koppelen > ul{
+	width: 97.5%;
+}

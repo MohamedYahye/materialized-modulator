@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="controller/assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="controller/assets/css/materialize.css">
+	<script type="text/javascript" src="controller/assets/js/jquery.js"></script>
+	<script type="text/javascript" src="controller/assets/js/materialize.js"></script>
+</head>
+<body>
+
+	<div class="wrap">
+		<div class="inner_wrap">
+			<h4>Login</h4>
+			<form name="login" class="login" method="post">
+				<input type="text" id="username" name="username" placeholder="gebruikersnaam">
+				<input type="password" id="password" name="password" placeholder="***">
+				<span class="error-message"></span>
+
+				<input type="submit" name="" value="Inloggen" class="btn">
+
+
+				
+			</form>
+
+
+
+		</div>
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	
+$(document).ready(function(){
+
+
+	var proceed = false;
+
+	$(".login").submit(function(e){
+
+		var username = $("#username");
+		var password = $("#password");
+
+		var parse;
+
+		if(username.val().length > 0){
+			proceed = true;
+			username.removeClass("invalid");
+		}else{
+			Materialize.toast("naam kan niet leeg zijn", 3000, "rounded");
+			username.addClass("invalid");
+			proceed = false;
+		}
+
+		if(password.val().length > 0 && password.val().length >= 6){
+			proceed = true;
+			password.removeClass("invalid");
+		}else{
+			Materialize.toast("wachtwoord moet minstens 6 chars zijn", 3000, "rounded");
+			password.addClass("invalid");
+			proceed = false;
+		}
+
+		if(proceed){
+			var _username = $("#username").val();
+			var _password = $("#password").val();
+			var parseJson;
+			$.ajax({
+				    type: "POST",
+
+				    data: {
+				    	username:_username,
+				    	password: _password
+				    },
+				    url: "model/login.php",
+				    dataType: "html",
+				    async: false,
+				    success: function(data) {
+				    	parseJson = JSON.parse(data);
+
+
+				    	if(parseJson.user == false){
+				    		Materialize.toast("incorrecte gebruikersnaam of wachtwoord", 3000, "rounded");
+				    		username.addClass("invalid");
+				    		password.addClass("invalid");
+				    	}
+				    	if(parseJson.password == false){
+				    		Materialize.toast("incorrecte gebruikersnaam of wachtwoord", 3000, "rounded");
+				    		username.addClass("invalid");
+				    		password.addClass("invalid");
+				    	}
+
+
+				    	if(parseJson.password){
+				    		location.replace("view/index.php");
+				    	}
+				    }
+				  });
+
+
+
+			e.preventDefault();
+		}else{
+			e.preventDefault();
+		}
+
+		
+	})
+})
+
+
+</script>
+</html>

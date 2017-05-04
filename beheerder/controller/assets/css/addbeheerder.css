@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.form {
+}
+
+.div{
+	display: inline-block;
+	width: 40%;
+    margin-left: 20px;
+}
+
+.div >label{
+	display: block;
+}
+
+#repeat{
+	width: 205%;
+}
+
+#submit{
+	width: 82%;
+    margin-top: 20px;
+    margin-left: 20px;
+}

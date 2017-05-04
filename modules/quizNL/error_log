@@ -1,0 +1,7 @@
+[17-May-2016 12:33:55 UTC] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/kweekvijver/public_html/tuintest/mailer.php on line 57
+[17-May-2016 12:34:16 UTC] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/kweekvijver/public_html/tuintest/mailer.php on line 56
+[17-May-2016 12:34:32 UTC] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/kweekvijver/public_html/tuintest/mailer.php on line 57
+[17-May-2016 12:35:51 UTC] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/kweekvijver/public_html/tuintest/mailer.php on line 58
+[17-May-2016 12:36:10 UTC] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/kweekvijver/public_html/tuintest/mailer.php on line 58
+[17-May-2016 12:36:29 UTC] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/kweekvijver/public_html/tuintest/mailer.php on line 58
+[17-May-2016 12:38:16 UTC] PHP Fatal error:  Call to undefined method stdClass::isSMTP() in /home/kweekvijver/public_html/tuintest/mailer.php on line 59

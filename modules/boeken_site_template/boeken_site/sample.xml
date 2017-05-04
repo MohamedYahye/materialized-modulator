@@ -1,0 +1,419 @@
+SimpleXMLElement Object
+(
+    [Request] => SimpleXMLElement Object
+        (
+            [authentication] => true
+            [key] => SimpleXMLElement Object
+                (
+                )
+
+            [method] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [search] => SimpleXMLElement Object
+        (
+            [query] => SimpleXMLElement Object
+                (
+                )
+
+            [results-start] => 1
+            [results-end] => 10
+            [total-results] => 10
+            [source] => Goodreads
+            [query-time-seconds] => 0.19
+            [results] => SimpleXMLElement Object
+                (
+                    [work] => Array
+                        (
+                            [0] => SimpleXMLElement Object
+                                (
+                                    [id] => 2963845
+                                    [books_count] => 394
+                                    [ratings_count] => 399703
+                                    [text_reviews_count] => 4977
+                                    [original_publication_year] => 1954
+                                    [original_publication_month] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [original_publication_day] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [average_rating] => 4.39
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 22304815
+                                            [title] => J.R.R. Tolkien Part Two The Two Towers (The Lord of The Rings, Part 2 of The Lord of The Rings)
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 656983
+                                                    [name] => J.R.R. Tolkien
+                                                )
+
+                                            [image_url] => http://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+                                            [small_image_url] => http://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+                                        )
+
+                                )
+
+                            [1] => SimpleXMLElement Object
+                                (
+                                    [id] => 3462456
+                                    [books_count] => 355
+                                    [ratings_count] => 329329
+                                    [text_reviews_count] => 7602
+                                    [original_publication_year] => 1954
+                                    [original_publication_month] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [original_publication_day] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [average_rating] => 4.44
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 33
+                                            [title] => The Lord of the Rings (The Lord of the Rings, #1-3)
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 656983
+                                                    [name] => J.R.R. Tolkien
+                                                )
+
+                                            [image_url] => http://d.gr-assets.com/books/1411114164m/33.jpg
+                                            [small_image_url] => http://d.gr-assets.com/books/1411114164s/33.jpg
+                                        )
+
+                                )
+
+                            [2] => SimpleXMLElement Object
+                                (
+                                    [id] => 89369
+                                    [books_count] => 65
+                                    [ratings_count] => 77271
+                                    [text_reviews_count] => 1379
+                                    [original_publication_year] => 1973
+                                    [original_publication_month] => 1
+                                    [original_publication_day] => 1
+                                    [average_rating] => 4.58
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 19437693
+                                            [title] => J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings (Movie Tie-in): The Hobbit, The Fellowship of the Ring, The Two Towers, The Return of the King
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 656983
+                                                    [name] => J.R.R. Tolkien
+                                                )
+
+                                            [image_url] => http://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+                                            [small_image_url] => http://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+                                        )
+
+                                )
+
+                            [3] => SimpleXMLElement Object
+                                (
+                                    [id] => 17145
+                                    [books_count] => 6
+                                    [ratings_count] => 5772
+                                    [text_reviews_count] => 18
+                                    [original_publication_year] => 2003
+                                    [original_publication_month] => 1
+                                    [original_publication_day] => 1
+                                    [average_rating] => 4.57
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 15242
+                                            [title] => The Lord of the Rings: The Art of The Two Towers
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 60
+                                                    [name] => Gary Russell
+                                                )
+
+                                            [image_url] => http://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+                                            [small_image_url] => http://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+                                        )
+
+                                )
+
+                            [4] => SimpleXMLElement Object
+                                (
+                                    [id] => 26098730
+                                    [books_count] => 6
+                                    [ratings_count] => 234
+                                    [text_reviews_count] => 9
+                                    [original_publication_year] => 1954
+                                    [original_publication_month] => 11
+                                    [original_publication_day] => 10
+                                    [average_rating] => 4.53
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 215343
+                                            [title] => The Treason of Isengard (The Lord of the Rings, #3)
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 656983
+                                                    [name] => J.R.R. Tolkien
+                                                )
+
+                                            [image_url] => http://d.gr-assets.com/books/1308664266m/215343.jpg
+                                            [small_image_url] => http://d.gr-assets.com/books/1308664266s/215343.jpg
+                                        )
+
+                                )
+
+                            [5] => SimpleXMLElement Object
+                                (
+                                    [id] => 1222026
+                                    [books_count] => 5
+                                    [ratings_count] => 192
+                                    [text_reviews_count] => 7
+                                    [original_publication_year] => 1954
+                                    [original_publication_month] => 11
+                                    [original_publication_day] => 11
+                                    [average_rating] => 4.40
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 1233422
+                                            [title] => The Ring Goes East (The Lord of the Rings, #4)
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 656983
+                                                    [name] => J.R.R. Tolkien
+                                                )
+
+                                            [image_url] => http://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+                                            [small_image_url] => http://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+                                        )
+
+                                )
+
+                            [6] => SimpleXMLElement Object
+                                (
+                                    [id] => 41391982
+                                    [books_count] => 18
+                                    [ratings_count] => 221
+                                    [text_reviews_count] => 16
+                                    [original_publication_year] => 1954
+                                    [original_publication_month] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [original_publication_day] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [average_rating] => 4.65
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 222953
+                                            [title] => The Lord of the Rings Boxed Set
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 656983
+                                                    [name] => J.R.R. Tolkien
+                                                )
+
+                                            [image_url] => http://d.gr-assets.com/books/1355025264m/222953.jpg
+                                            [small_image_url] => http://d.gr-assets.com/books/1355025264s/222953.jpg
+                                        )
+
+                                )
+
+                            [7] => SimpleXMLElement Object
+                                (
+                                    [id] => 17541199
+                                    [books_count] => 1
+                                    [ratings_count] => 5
+                                    [text_reviews_count] => 0
+                                    [original_publication_year] => 2011
+                                    [original_publication_month] => 8
+                                    [original_publication_day] => 23
+                                    [average_rating] => 5.00
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 12549839
+                                            [title] => The Lord Of The Rings, including: The Two Towers, The Return Of The King, The History Of The Lord Of The Rings, Red Book Of Westmarch, The Tale Of Aragorn And Arwen, Themes Of The Lord Of The Rings, Adaptations Of The Lord Of The Rings, Tolkien Tourism
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 5167894
+                                                    [name] => Hephaestus Books
+                                                )
+
+                                            [image_url] => http://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+                                            [small_image_url] => http://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+                                        )
+
+                                )
+
+                            [8] => SimpleXMLElement Object
+                                (
+                                    [id] => 15931535
+                                    [books_count] => 2
+                                    [ratings_count] => 1
+                                    [text_reviews_count] => 1
+                                    [original_publication_year] => 2007
+                                    [original_publication_month] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [original_publication_day] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => integer
+                                                    [nil] => true
+                                                )
+
+                                        )
+
+                                    [average_rating] => 4.00
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 11012480
+                                            [title] => The Two Towers (SparkNotes Literature Guide Series)
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 6460726
+                                                    [name] => SparkNotes
+                                                )
+
+                                            [image_url] => http://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+                                            [small_image_url] => http://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+                                        )
+
+                                )
+
+                            [9] => SimpleXMLElement Object
+                                (
+                                    [id] => 19120167
+                                    [books_count] => 1
+                                    [ratings_count] => 1
+                                    [text_reviews_count] => 0
+                                    [original_publication_year] => 1992
+                                    [original_publication_month] => 1
+                                    [original_publication_day] => 1
+                                    [average_rating] => 5.00
+                                    [best_book] => SimpleXMLElement Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [type] => Book
+                                                )
+
+                                            [id] => 1563842
+                                            [title] => 二つの塔 / Futatsu no tō: The Two Towers (Book Four) (The Lord Of The Rings, Volume 7)
+                                            [author] => SimpleXMLElement Object
+                                                (
+                                                    [id] => 656983
+                                                    [name] => J.R.R. Tolkien
+                                                )
+
+                                            [image_url] => http://d.gr-assets.com/books/1374049736m/1563842.jpg
+                                            [small_image_url] => http://d.gr-assets.com/books/1374049736s/1563842.jpg
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
